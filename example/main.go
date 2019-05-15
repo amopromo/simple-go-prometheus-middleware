@@ -20,7 +20,7 @@ func main() {
 	})
 
 	middleware := sgpm.Middleware(sgpm.Config{
-		Prefix:          "asd",
+		Prefix:          "sgpm_example",
 		HandlerLabel:    "handler",
 		MethodLabel:     "methond",
 		StatusCodeLabel: "code",
