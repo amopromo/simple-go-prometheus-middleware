@@ -1,7 +1,7 @@
 # simple-go-prometheus-middleware
 sgpm - Simple Go Prometheus Middleware
 
-Based on [github.com/slok/go-prometheus-middleware](https://github.com/slok/go-prometheus-middleware) but simpler.
+Based on [github.com/slok/go-prometheus-middleware](https://github.com/slok/go-prometheus-middleware) but simpler, without any support for specific go framework.
 
 The examples directory contains simple examples of instrumented code.
 
