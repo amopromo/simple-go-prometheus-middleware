@@ -21,8 +21,10 @@ func main() {
 
 	middleware := sgpm.Middleware(sgpm.Config{
 		Prefix:          "sgpm_example",
+		Source:          "example",
+		SourceLabel:     "source",
 		HandlerLabel:    "handler",
-		MethodLabel:     "methond",
+		MethodLabel:     "method",
 		StatusCodeLabel: "code",
 		DurationBuckets: prometheus.DefBuckets,
 	})
